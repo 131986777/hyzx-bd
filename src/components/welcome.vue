@@ -11,9 +11,9 @@ export default {
             }
         },
         mounted() {
-            setTimeout(() => {
-                this.hide = true
-            }, 1000)
+//          setTimeout(() => {
+//              this.hide = true
+//          }, 1000)
         }
 }
 </script>

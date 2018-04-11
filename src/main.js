@@ -9,10 +9,13 @@ import IScroll from 'iscroll'
 //import BScroll from 'better-scroll'
 //import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
-
+import http from './utils/http'
+import api from './utils/api'
+import md5 from './assets/js/md5'
 import base from './assets/css/base.css'
 import iscroll from './assets/js/iscroll'
 import cess from './assets/js/rem.js'
+
 Vue.use(IScrollView, IScroll)
 
 Vue.config.productionTip = false
