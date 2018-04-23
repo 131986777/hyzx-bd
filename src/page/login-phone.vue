@@ -35,18 +35,17 @@
 
 </template>
 
-<script>
-</script>
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style scoped>
 	/*animation*/
-	
+
 	body {
 		font-family: "微软雅黑";
 	}
-	
+
 	.login-content {
 		width: 100%;
 		height: 100%;
@@ -54,18 +53,18 @@
 		background: -webkit-linear-gradient(50deg, rgba(73, 149, 227, 1), rgba(120, 161, 223, 1), rgba(158, 172, 221, 1), rgba(197, 181, 210, .8));
 		/* Safari 5.1 - 6.0 */
 	}
-	
+
 	.logo {
 		height: 4rem;
 		width: 100%;
 		line-height: 4rem;
 		text-align: center;
 	}
-	
+
 	.message {
 		padding: 20px;
 	}
-	
+
 	.message input {
 		box-sizing: border-box;
 		height: 1rem;
@@ -78,24 +77,24 @@
 		color: rgba(255, 255, 255, .9);
 		font-size: .32rem;
 	}
-	
+
 	.input-content {
 		position: relative;
 	}
-	
+
 	.border {
 		width: 100%;
 		height: 1px;
 		background: #FFFFFF;
 		opacity: .6;
 	}
-	
+
 	input::-webkit-input-placeholder {
 		line-height: 1em;
 		color: rgba(255, 255, 255, .3);
 		font-size: .32rem;
 	}
-	
+
 	.ic {
 		width: .64rem;
 		position: absolute;
@@ -104,7 +103,7 @@
 		left: 0;
 		right: 0;
 	}
-	
+
 	.yz {
 
 		position: absolute;
@@ -114,11 +113,11 @@
 		top: 0;
 		color: #FFFFFF;
 	}
-	
+
 	.ic img {
 		width: 100%;
 	}
-	
+
 	.submit {
 		width: 6.7rem;
 		height: .9rem;

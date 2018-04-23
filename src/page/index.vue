@@ -193,14 +193,12 @@
 
 </template>
 
-<script>
-</script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style scoped>
 	/*animation*/
-	
+
 	.scroll-view {
 		/* -- Attention: This line is extremely important in chrome 55+! -- */
 		touch-action: none;
@@ -212,7 +210,7 @@
 		right: 0;
 		overflow: hidden;
 	}
-	
+
 	@-webkit-keyframes wavef {
 		0% {
 			-webkit-transform: translate(0);
@@ -227,7 +225,7 @@
 			transform: translate(5%, 1%)
 		}
 	}
-	
+
 	@keyframes wavef {
 		0% {
 			-webkit-transform: translate(0);
@@ -243,15 +241,15 @@
 		}
 	}
 	/*公共样式*/
-	
+
 	.fl {
 		float: left;
 	}
-	
+
 	.fr {
 		float: right;
 	}
-	
+
 	.item-row-my-orders,
 	.personal-menu,
 	.item-row,
@@ -259,25 +257,25 @@
 	.bg {
 		background: #ffffff;
 	}
-	
+
 	.usercenter-container {
 		background: #f8f8f8;
 	}
 	/*会员展示栏*/
-	
+
 	.personal-profile-wrapper {
 		position: relative;
 		height: 3.04rem;
 		background: url(../assets/img/user_banner.png) no-repeat;
 		background-size: 100%;
 	}
-	
+
 	.personal-wrap {
 		padding: .97rem 0rem;
 		height: 1.1rem;
 		line-height: 1.1rem;
 	}
-	
+
 	.personal-img {
 		height: 1.1rem;
 		width: 1.1rem;
@@ -287,13 +285,13 @@
 		background: url(../assets/img/logo.png);
 		background-size: 100%;
 	}
-	
+
 	.user-name {
 		margin-left: .58rem;
 		color: #FFFFFF;
 		font-size: 17px;
 	}
-	
+
 	.waves {
 		position: absolute;
 		width: 100%;
@@ -301,7 +299,7 @@
 		bottom: 0px;
 		overflow: hidden;
 	}
-	
+
 	.wave1 {
 		position: absolute;
 		bottom: 0px;
@@ -311,7 +309,7 @@
 		animation-name: wavef;
 		animation-duration: 4s;
 	}
-	
+
 	.wave2 {
 		/*-webkit-animation-delay: .8s;*/
 		animation: wavef 4s ease-in-out alternate infinite;
@@ -324,12 +322,12 @@
 		left: -8%;
 		width: 115%;
 	}
-	
+
 	.waves>div>img {
 		width: 100%;
 	}
 	/*我的订单*/
-	
+
 	.item-row-my-orders {
 		line-height: .34rem;
 		height: .34rem;
@@ -337,11 +335,11 @@
 		font-size: 15px;
 		color: #333;
 	}
-	
+
 	.item-row-my-orders>div>img {
 		width: 100%;
 	}
-	
+
 	.my-orders-ic {
 		line-height: .34rem;
 		width: .4rem;
@@ -350,7 +348,7 @@
 		height: .34rem;
 		line-height: .34rem;
 	}
-	
+
 	.ic-r {
 		line-height: .34rem;
 		height: .34rem;
@@ -358,12 +356,12 @@
 		float: right;
 		margin-left: .2rem;
 	}
-	
+
 	.older-all {
 		font-size: 12px;
 		color: #999999;
 	}
-	
+
 	.personal-menu {
 		margin-top: 10px;
 		flex-direction: row;
@@ -371,7 +369,7 @@
 		text-align: center;
 		height: 73px;
 	}
-	
+
 	.sub-menu {
 		box-sizing: border-box;
 		position: relative;
@@ -395,13 +393,13 @@
 		font-size: 12px;
 		color: #666666;
 	}
-	
+
 	.sub-menu img {
 		width: 21px;
 		margin-bottom: 8px;
 	}
 	/*我的钱包*/
-	
+
 	.item-row {
 		line-height: 18px;
 		box-sizing: border-box;
@@ -414,25 +412,25 @@
 		color: #333;
 		border-bottom: 1px solid #F8F8F8;
 	}
-	
+
 	.item-row-actural {
 		font-size: 15px;
 		color: #333;
 	}
-	
+
 	.item-row>div>img {
 		width: 100%;
 	}
-	
+
 	.item-row-wallet {
 		font-size: 12px;
 		color: #999999;
 	}
-	
+
 	.wallet-list {
 		padding: 18px 0;
 	}
-	
+
 	.wallet-list ul {
 		height: 39px;
 		flex-direction: row;
@@ -440,7 +438,7 @@
 		display: -ms-flexbox;
 		display: flex;
 	}
-	
+
 	.wallet-list ul li {
 		width: 33%;
 		text-align: center;
@@ -465,17 +463,17 @@
 		color: #666666;
 	}
 	/*更改图标16*/
-	
+
 	.w16 {
 		width: 16px !important;
 		line-height: 16px !important;
 	}
-	
+
 	.empty {
 		height: .6rem;
 		width: 100%;
 	}
-	
+
 	.tel {
 		color: #3163de;
 	}
